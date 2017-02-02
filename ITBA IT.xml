@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="admin">
+      <firstName>Administrador</firstName>
+      <lastName>Procesos</lastName>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>admin@example.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="mbenitez">
+      <firstName>Mariano</firstName>
+      <lastName>Benitez</lastName>
+      <jobTitle>Course Lead</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>mbenitez@example.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="sgomez">
+      <firstName>Silvia</firstName>
+      <lastName>Gomez</lastName>
+      <jobTitle>Department Lead</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>sgomez@example.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rlelic">
+      <firstName>Rifat</firstName>
+      <lastName>Lelic</lastName>
+      <jobTitle>Department Lead</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>rlelic@example.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="agomez">
+      <firstName>Alicia</firstName>
+      <lastName>Gomez</lastName>
+      <title>Prof.</title>
+      <jobTitle>Professor</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>agomez@example.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="apagnoni">
+      <firstName>Agustin</firstName>
+      <lastName>Pagnoni</lastName>
+      <jobTitle>Alumno</jobTitle>
+      <manager>gzanzott</manager>
+      <personalData/>
+      <professionalData>
+        <email>aguspagnoni@gmail.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="gzanzott">
+      <firstName>Gabriel</firstName>
+      <lastName>Zanzotti</lastName>
+      <jobTitle>Alumno</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>gabriel.zanzotti@gmail.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ilanusse">
+      <firstName>Iñaki</firstName>
+      <lastName>Lanusse</lastName>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>gabriel.zanzotti@wolox.com.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="bpmAdmin">
+      <displayName>Administrador procesos</displayName>
+    </role>
+    <role name="professor">
+      <displayName>Profesor</displayName>
+    </role>
+    <role name="departmentLead">
+      <displayName>Jefe de departamento</displayName>
+    </role>
+    <role name="courseLead">
+      <displayName>Responsable Materia</displayName>
+    </role>
+    <role name="student">
+      <displayName>Alumno</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="departments">
+      <displayName>Departamentos</displayName>
+    </group>
+    <group name="professors">
+      <displayName>Profesores</displayName>
+    </group>
+    <group name="admin">
+      <displayName>Administradores</displayName>
+    </group>
+    <group name="11" parentPath="/departments">
+      <displayName>Informática</displayName>
+    </group>
+    <group name="14" parentPath="/departments">
+      <displayName>Desarrollo Profesional</displayName>
+    </group>
+    <group name="71.56" parentPath="/departments/11">
+      <displayName>Programacion Basica</displayName>
+    </group>
+    <group name="10" parentPath="/departments">
+      <displayName>Economia, Finanzas y Legales</displayName>
+    </group>
+    <group name="72.71" parentPath="/departments/11">
+      <displayName>Integración de Sistemas de Información</displayName>
+    </group>
+    <group name="72.42" parentPath="/departments/11">
+      <displayName>Programacion de Objetos Distribuidos</displayName>
+    </group>
+    <group name="94.41" parentPath="/departments/14">
+      <displayName>Gestion de los Recursos Humanos</displayName>
+    </group>
+    <group name="94.40" parentPath="/departments/14">
+      <displayName>Estructura de las Organizaciones</displayName>
+    </group>
+    <group name="94.01" parentPath="/departments/14">
+      <displayName>Relaciones Hum.y Orient.prof.</displayName>
+    </group>
+    <group name="11.31" parentPath="/departments/10">
+      <displayName>Derecho para Ingenieros</displayName>
+    </group>
+    <group name="61.55" parentPath="/departments/10">
+      <displayName>Microeconomia</displayName>
+    </group>
+    <group name="11.50" parentPath="/departments/10">
+      <displayName>Finanzas de la Empresa</displayName>
+    </group>
+    <group name="alumnos">
+      <displayName>Alumnos</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>admin</userName>
+      <roleName>student</roleName>
+      <groupName>admin</groupName>
+    </membership>
+    <membership>
+      <userName>mbenitez</userName>
+      <roleName>student</roleName>
+      <groupName>72.71</groupName>
+      <groupParentPath>/departments/11</groupParentPath>
+    </membership>
+    <membership>
+      <userName>sgomez</userName>
+      <roleName>student</roleName>
+      <groupName>11</groupName>
+      <groupParentPath>/departments</groupParentPath>
+    </membership>
+    <membership>
+      <userName>rlelic</userName>
+      <roleName>student</roleName>
+      <groupName>14</groupName>
+      <groupParentPath>/departments</groupParentPath>
+    </membership>
+    <membership>
+      <userName>rlelic</userName>
+      <roleName>student</roleName>
+      <groupName>10</groupName>
+      <groupParentPath>/departments</groupParentPath>
+    </membership>
+    <membership>
+      <userName>sgomez</userName>
+      <roleName>student</roleName>
+      <groupName>71.56</groupName>
+      <groupParentPath>/departments/11</groupParentPath>
+    </membership>
+    <membership>
+      <userName>rlelic</userName>
+      <roleName>student</roleName>
+      <groupName>11.31</groupName>
+      <groupParentPath>/departments/10</groupParentPath>
+    </membership>
+    <membership>
+      <userName>agomez</userName>
+      <roleName>student</roleName>
+      <groupName>71.56</groupName>
+      <groupParentPath>/departments/11</groupParentPath>
+    </membership>
+    <membership>
+      <userName>agomez</userName>
+      <roleName>student</roleName>
+      <groupName>72.42</groupName>
+      <groupParentPath>/departments/11</groupParentPath>
+    </membership>
+    <membership>
+      <userName>mbenitez</userName>
+      <roleName>student</roleName>
+      <groupName>72.42</groupName>
+      <groupParentPath>/departments/11</groupParentPath>
+    </membership>
+    <membership>
+      <userName>apagnoni</userName>
+      <roleName>student</roleName>
+      <groupName>alumnos</groupName>
+    </membership>
+    <membership>
+      <userName>gzanzott</userName>
+      <roleName>professor</roleName>
+      <groupName>professors</groupName>
+    </membership>
+    <membership>
+      <userName>ilanusse</userName>
+      <roleName>student</roleName>
+      <groupName>alumnos</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
