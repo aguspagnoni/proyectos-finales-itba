@@ -22,6 +22,8 @@ Despues del OK por parte de Silvia, Creacion de repositorio oficial donde tienen
 Cuando hay un ok a acada gruppo se debe cargar (en --> sakai)
 Elegir 3 proyectos con prioridad y si hay un conflicto se ve de forma manual (enviar mail)
 
+# Posible seguimiento de este proyecyo:
+
 SEGUIMIENTO
 ---------------------------------------------------------------------------------------------------------------
 2) Warnings periodicos a los tutores de como van los proyectos. Con opciones, o barra de progreso.
