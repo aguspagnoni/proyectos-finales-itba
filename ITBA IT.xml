@@ -19,55 +19,12 @@
       <firstName>Mariano</firstName>
       <lastName>Benitez</lastName>
       <jobTitle>Course Lead</jobTitle>
-      <manager></manager>
+      <manager>vsoliani</manager>
       <personalData>
         <email></email>
       </personalData>
       <professionalData>
-        <email>mbenitez@example.com</email>
-      </professionalData>
-      <password encrypted="false">bpm</password>
-      <customUserInfoValues/>
-    </user>
-    <user userName="sgomez">
-      <firstName>Silvia</firstName>
-      <lastName>Gomez</lastName>
-      <jobTitle>Department Lead</jobTitle>
-      <manager></manager>
-      <personalData>
-        <email></email>
-      </personalData>
-      <professionalData>
-        <email>sgomez@example.com</email>
-      </professionalData>
-      <password encrypted="false">bpm</password>
-      <customUserInfoValues/>
-    </user>
-    <user userName="rlelic">
-      <firstName>Rifat</firstName>
-      <lastName>Lelic</lastName>
-      <jobTitle>Department Lead</jobTitle>
-      <manager></manager>
-      <personalData>
-        <email></email>
-      </personalData>
-      <professionalData>
-        <email>rlelic@example.com</email>
-      </professionalData>
-      <password encrypted="false">bpm</password>
-      <customUserInfoValues/>
-    </user>
-    <user userName="agomez">
-      <firstName>Alicia</firstName>
-      <lastName>Gomez</lastName>
-      <title>Prof.</title>
-      <jobTitle>Professor</jobTitle>
-      <manager></manager>
-      <personalData>
-        <email></email>
-      </personalData>
-      <professionalData>
-        <email>agomez@example.com</email>
+        <email>gzanzott+4@itba.edu.ar</email>
       </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -76,10 +33,10 @@
       <firstName>Agustin</firstName>
       <lastName>Pagnoni</lastName>
       <jobTitle>Alumno</jobTitle>
-      <manager>gzanzott</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
-        <email>aguspagnoni@gmail.com</email>
+        <email>gzanzott+5@itba.edu.ar</email>
       </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -91,7 +48,7 @@
       <manager></manager>
       <personalData/>
       <professionalData>
-        <email>gabriel.zanzotti@gmail.com</email>
+        <email>gzanzott+6@itba.edu.ar</email>
       </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -104,7 +61,77 @@
         <email></email>
       </personalData>
       <professionalData>
-        <email>gabriel.zanzotti@wolox.com.ar</email>
+        <email>gzanzott+9@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lmosco">
+      <firstName>Lucas</firstName>
+      <lastName>Moscovicz</lastName>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>gzanzott+7@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jmarinelli">
+      <firstName>Juan</firstName>
+      <lastName>Marinelli</lastName>
+      <manager></manager>
+      <personalData>
+        <email></email>
+      </personalData>
+      <professionalData>
+        <email>gzanzott+8@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="vsoliani">
+      <firstName>Valeria</firstName>
+      <lastName>Soliani</lastName>
+      <manager>admin</manager>
+      <personalData/>
+      <professionalData>
+        <email>gzanzott+0@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="aaizemberg">
+      <firstName>Ariel</firstName>
+      <lastName>Aizemberg</lastName>
+      <manager>vsoliani</manager>
+      <personalData/>
+      <professionalData>
+        <email>gzanzott+1@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="avaisman">
+      <firstName>Alejandro</firstName>
+      <lastName>Vaisman</lastName>
+      <manager>vsoliani</manager>
+      <personalData/>
+      <professionalData>
+        <email>gzanzott+2@itba.edu.ar</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="cparpag">
+      <firstName>Cristina</firstName>
+      <lastName>Parpaglione</lastName>
+      <manager>vsoliani</manager>
+      <personalData/>
+      <professionalData>
+        <email>gzanzott+3@itba.edu.ar</email>
       </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -125,6 +152,10 @@
     </role>
     <role name="student">
       <displayName>Alumno</displayName>
+    </role>
+    <role name="tutors">
+      <displayName>Tutores de Proyecto Final</displayName>
+      <description>Pueden ser Profesores o Gente externa del ITBA</description>
     </role>
   </roles>
   <groups>
@@ -190,48 +221,6 @@
       <groupParentPath>/departments/11</groupParentPath>
     </membership>
     <membership>
-      <userName>sgomez</userName>
-      <roleName>student</roleName>
-      <groupName>11</groupName>
-      <groupParentPath>/departments</groupParentPath>
-    </membership>
-    <membership>
-      <userName>rlelic</userName>
-      <roleName>student</roleName>
-      <groupName>14</groupName>
-      <groupParentPath>/departments</groupParentPath>
-    </membership>
-    <membership>
-      <userName>rlelic</userName>
-      <roleName>student</roleName>
-      <groupName>10</groupName>
-      <groupParentPath>/departments</groupParentPath>
-    </membership>
-    <membership>
-      <userName>sgomez</userName>
-      <roleName>student</roleName>
-      <groupName>71.56</groupName>
-      <groupParentPath>/departments/11</groupParentPath>
-    </membership>
-    <membership>
-      <userName>rlelic</userName>
-      <roleName>student</roleName>
-      <groupName>11.31</groupName>
-      <groupParentPath>/departments/10</groupParentPath>
-    </membership>
-    <membership>
-      <userName>agomez</userName>
-      <roleName>student</roleName>
-      <groupName>71.56</groupName>
-      <groupParentPath>/departments/11</groupParentPath>
-    </membership>
-    <membership>
-      <userName>agomez</userName>
-      <roleName>student</roleName>
-      <groupName>72.42</groupName>
-      <groupParentPath>/departments/11</groupParentPath>
-    </membership>
-    <membership>
       <userName>mbenitez</userName>
       <roleName>student</roleName>
       <groupName>72.42</groupName>
@@ -244,13 +233,48 @@
     </membership>
     <membership>
       <userName>gzanzott</userName>
-      <roleName>professor</roleName>
-      <groupName>professors</groupName>
+      <roleName>student</roleName>
+      <groupName>alumnos</groupName>
     </membership>
     <membership>
       <userName>ilanusse</userName>
       <roleName>student</roleName>
       <groupName>alumnos</groupName>
+    </membership>
+    <membership>
+      <userName>lmosco</userName>
+      <roleName>student</roleName>
+      <groupName>alumnos</groupName>
+    </membership>
+    <membership>
+      <userName>jmarinelli</userName>
+      <roleName>student</roleName>
+      <groupName>alumnos</groupName>
+    </membership>
+    <membership>
+      <userName>vsoliani</userName>
+      <roleName>bpmAdmin</roleName>
+      <groupName>admin</groupName>
+    </membership>
+    <membership>
+      <userName>mbenitez</userName>
+      <roleName>tutors</roleName>
+      <groupName>professors</groupName>
+    </membership>
+    <membership>
+      <userName>aaizemberg</userName>
+      <roleName>tutors</roleName>
+      <groupName>professors</groupName>
+    </membership>
+    <membership>
+      <userName>avaisman</userName>
+      <roleName>tutors</roleName>
+      <groupName>professors</groupName>
+    </membership>
+    <membership>
+      <userName>cparpag</userName>
+      <roleName>tutors</roleName>
+      <groupName>professors</groupName>
     </membership>
   </memberships>
 </organization:Organization>
